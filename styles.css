@@ -1,0 +1,281 @@
+/*
+General CSS properties that affects the entirety of the landing page as a whole
+*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;  
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+
+    
+   
+}
+
+/*
+This entire CSS section is the start for the header
+*/
+.header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding-bottom: 50px;
+    flex: 1;
+  
+ 
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+   
+}
+
+
+
+
+.left .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 25px;
+
+    display: flex;
+}
+
+
+
+
+.right .links {
+    font-size: 18px;
+    list-style-type: none;
+    color: #E5E7EB;
+    margin: 0;
+
+    display: flex;
+    
+   
+}
+
+.right .links li {
+   margin-right: 20px;
+   font-weight: lighter;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.content .main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    
+    margin-right: 15px;;
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    gap: 10px;
+  
+}
+
+.header img {
+    margin-left: 15px;;
+}
+
+.main .secondary {
+    font-size: 16px;
+    font-weight:normal;
+    color: #e5e7eb;
+    
+
+    
+}
+
+.main .signup {
+    font-weight: bold;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border-width: 0;
+
+    padding-left: 16px;
+    padding-right: 16px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*
+This entire CSS section is the start for the body
+*/
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20px;
+    float: 1;
+   
+    margin: 40px;
+}
+
+.body .body-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.body .content {
+    display: flex;
+   
+}
+
+.body .illustration{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+
+    max-width: 200px;
+
+}
+
+.body img{
+   
+    border-radius: 5px;
+    border-width: 3px;
+    border-color:#3882F6;
+    border-style: solid;
+
+    
+
+   
+}
+.body .subtext {  
+    text-align: center;
+    color:rgba(0, 0, 0, 0.429)
+    
+}
+
+/*
+This entire CSS section is the start for the quote section
+*/
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    
+}
+
+.quote {
+    font-size: 30px;
+    font-style: italic;
+    padding: 100px;
+    margin-bottom: -80px;
+
+    display: flex;
+    flex-direction: column;
+    align-items:first baseline;
+    max-width: 900px;
+
+}
+
+.person {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+
+    margin-left: auto;
+
+    padding: 30px;
+}
+
+/*
+This entire CSS section is the start for the signup section
+*/
+
+.banner {
+    background-color: white;
+    margin: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ad {
+    background-color:#3882F6;
+    border-radius: 7px;
+    padding: 50px;
+    min-width: 700px;
+
+    display: flex;
+    justify-content: space-around;
+   
+   
+   
+}
+
+.ad .maintext {
+    font-weight: bold;
+    color:#F9FAF8;
+
+}
+
+.ad .undertext {
+   
+    justify-content: center;
+    font-weight: normal;
+}
+.enroll {
+    font-weight: bold;
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+    border-radius: 5px;
+    border-color: #F9FAF8;
+    border-style: solid;
+
+   
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+    padding-left: 15px;
+    padding-right: 15px; 
+   
+
+}
+
+/*
+This entire CSS section is the start for the footer section
+*/
+
+.footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    font-weight: lighter;
+
+    display:flex;
+    justify-content: center;
+    flex: 1;
+
+    padding: 20px;
+    
+}
